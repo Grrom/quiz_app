@@ -1,16 +1,50 @@
-# stamp_card
+## Description
 
-A new Flutter project.
+MyFlutterApp is a powerful tool designed to help users manage their tasks efficiently. It offers a user-friendly interface and a variety of features to enhance productivity.
 
-## Getting Started
+## Prerequisites
 
-This project is a starting point for a Flutter application.
+Before you begin, ensure you have met the following requirements:
 
-A few resources to get you started if this is your first Flutter project:
+- You have installed the latest version of [Flutter](https://flutter.dev/docs/get-started/install).
+- You have a `Mac` machine with [Xcode](https://developer.apple.com/xcode/) installed for iOS development.
+- You have an Android device or emulator for Android development.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To install, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git@github.com:Grrom/quiz_app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd quiz_app
+   ```
+3. Get the Flutter dependencies:
+   ```sh
+   flutter pub get
+   ```
+
+## Usage
+
+To use quiz_app, follow these steps:
+
+1. Run the application on an emulator or connected device:
+
+   ```sh
+   flutter run
+   ```
+
+2. For iOS, ensure you have an iOS simulator or device connected.
+3. For Android, ensure you have an Android emulator or device connected.
+4. Note that this app fetches a static json file and an image from the internet so an active internet connection is needed.
+
+## Screenshots
+
+![1724323679738](image/README/1724323679738.png)![1724323696157](image/README/1724323696157.png)![1724323712777](image/README/1724323712777.png)
+
+```sh
+
+```
