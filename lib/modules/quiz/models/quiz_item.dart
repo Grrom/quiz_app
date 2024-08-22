@@ -1,9 +1,11 @@
-class QuizItem<T> {
+class QuizItem {
+  final String id;
   final String question;
-  final List<T> options;
-  final T answer;
+  final List<String> options;
+  final String answer;
 
   QuizItem({
+    required this.id,
     required this.question,
     required this.options,
     required this.answer,
@@ -11,14 +13,16 @@ class QuizItem<T> {
 
   factory QuizItem.fromJson(Map<String, dynamic> json) {
     return QuizItem(
+      id: json['id'].toString(),
       question: json['question'],
-      options: List<T>.from(json['options']),
+      options: List<String>.from(json['options']),
       answer: json['answer'],
     );
   }
 
   Map<String, dynamic> toJson() {
     return {
+      'id': id,
       'question': question,
       'options': options,
       'answer': answer,
